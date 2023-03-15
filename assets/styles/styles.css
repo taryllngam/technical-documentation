@@ -17,7 +17,7 @@
   overflow: scroll;
 }
 
-.work{
+.work {
   display: block;
   width: 75%;
   margin-left: auto;
@@ -40,8 +40,8 @@ nav ul {
 
 nav ul li {
   border-bottom: 1px solid black;
-  list-style: none; 
-  font-size: 30px;  
+  list-style: none;
+  font-size: 30px;
 }
 
 nav ul li a {
