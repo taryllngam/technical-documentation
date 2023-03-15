@@ -4,19 +4,86 @@
 }
 
 #sidenav {
-  display: grid;
-  display: -ms-inline-grid;
+  display: block;
   left: 0;
   top: 0;
+  width: 22%;
   line-height: 45px;
-  grid: 10px;
-  width: 290px;
   border-bottom: 2px;
   position: fixed;
   grid-column: auto auto auto;
   border-right: 2px solid black;
   height: 100vh;
+  overflow: scroll;
 }
+
+
+.work{
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  padding-top: 50px;
+}
+
+.head {
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333733;
+  font-family: sans-serif;
+}
+
+
+nav ul {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  border-bottom: 1px solid black;
+  list-style: none; 
+  font-size: 30px;  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3e3b3b;
+  font-size: 17px;
+  padding-left: 25px;
+}
+
+p {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.work ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+code {
+  background-color: #e6e6e6f7;
+  padding: 19px;
+  margin: 10px;
+  display: block;
+}
+
+/* .container {
+  height: 70px;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  color: #333733; */
+
+
+
+/* 
+.work {
+  display: block;
+}
+
 
 h1 {
   border-bottom: 2px solid black;
@@ -79,7 +146,7 @@ h3 {
 }
 
 .def {
-  width: 800px;
+width: 800px;
 padding-left: 350px;
 display: flex;
 flex-direction: column;
@@ -93,3 +160,58 @@ color: #3e3b3b;
   flex-direction: column;
   gap: 20px;  
 }
+
+h4 {
+  font-size: 35px;
+  text-align: left;
+  padding: 20px 0 20px 340px;
+  color: #333733;
+  font-family: sans-serif;
+}
+
+.java {
+  width: 800px;
+  padding-left: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #3e3b3b;
+}
+
+h5 {
+  font-size: 35px;
+  text-align: left;
+  padding: 20px 0 20px 340px;
+  color: #333733;
+  font-family: sans-serif;
+}
+
+#box {
+  padding-left: 350px;
+  width: 1000px;
+}
+
+.container {
+  height: 70px;
+  width: min-content;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 20px 0 0 395px;
+  color: #333733;
+}
+
+code {
+  padding: 20px 0 20px 0;
+  background-color: #f7fcff;  
+  width: 68vw;
+}
+
+.cut {
+  color: #333733;
+}
+
+h6 {
+  text-align: left;
+}
+
+ */
